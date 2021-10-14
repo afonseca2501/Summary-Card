@@ -38,7 +38,6 @@ body>img{
     max-width: 100vw;
     height: 700px;
     max-height: 100vh;
-    position: absolute;
     display: grid;
     grid-template-rows: 1.5fr 1.5fr 1fr ;
     grid-template-columns: 1fr;
@@ -71,6 +70,7 @@ body>img{
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin: 3%; margin-top: 0px; margin-bottom: 0px;
 }
 .infe>a{
     margin-top: 15px;
@@ -79,7 +79,7 @@ body>img{
     background-color: rgba(168, 220, 255, 0.246);
     border-radius: 15px;
     position: absolute;
-    top: 180px; right: 5%; left: 5%;
+    right: 5%; left: 5%;bottom: 3px;
     height: 80px;
     width: auto;
     display: grid;
@@ -91,14 +91,9 @@ body>img{
     text-align: center;
 }
 
-
-.infe{
-    margin: 3%;
-
-}
 .info>p{
     position: absolute;
-    top:90px;right: 10%; left: 10%;
+    top:30%;right: 10%; left: 10%; bottom: 10%;
     font-size: 1em;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
@@ -108,7 +103,7 @@ body>img{
     position: absolute;
     align-items: center;
     justify-content: center;
-    top:20px;right: 10%;left: 10%;
+    top:10%;right: 10%;left: 10%;bottom: 3%;
 }
 .infe>a{
     text-align: center;
@@ -116,7 +111,7 @@ body>img{
 }
 .infe>a:nth-child(1){
     background-color: cornflowerblue;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 800;
     width: 95%;
     height: 20%;
@@ -132,7 +127,7 @@ body>img{
     box-shadow: 2px 2px 30px rgba(44, 1, 124, 0.37);
 }
 .infe>a:nth-child(2){
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
 }
 .infe>a:nth-child(2):hover{
