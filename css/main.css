@@ -142,21 +142,40 @@ body>img{
     line-height: 1em;
 }
 .change{
-    postion:absolute;
     grid-column: 3;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 1.25em;
     padding: 2px;
-    cursor: pointer;
-    
 }
 
 .change:hover{
     color: rgb(125, 96, 255);
+    cursor: pointer;
 }
 .aptext>p{
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 300;
     letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 480px) {
+    .A{
+        max-width: 100%;
+        min-height: 95%;
+        padding: 1%;
+    }
+    .Summary{
+        height: 97%;
+       
+    }
+    .info>p{
+        font-size: .5em;
+        top: 35%;
+    }
+    .change{
+        font-size: 1em;
+    }
+    .infe>a:nth-child(1){
+        font-size: 1em;}
 }
