@@ -46,7 +46,6 @@ body>img{
     margin: 3%;
 }
 .sup{
-    background-color: tomato;
     border-radius: 15px 15px 0px 0px;
     grid-row: 1;
     overflow: hidden;
@@ -54,9 +53,11 @@ body>img{
     align-content: center;
     justify-content: center;
 }
+.sup img{
+    height: 100%;
+}
 .imag{
     display: inline-block;
-    align-self: center;
     padding: 0px;
 }
 .centro{
